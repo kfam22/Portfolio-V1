@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
+import Philosophy from './components/Philosophy';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Kayla's Portfolio</h1>
       </header>
       <Home/>
+      <Philosophy/>
     </div>
   );
 }
