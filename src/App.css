@@ -59,3 +59,153 @@ header a {
   margin-bottom: 1rem;
   margin-right: 4rem;
 }
+
+/* section one styles */
+.one {
+  background: hsl(10, 56%, 51%);
+  height: 90vh;
+  display:flex;
+  justify-content: space-between;
+  color:hsl(120, 14%, 97%);
+}
+
+.pageOneLeft {
+  width: 55%;
+  padding: 10rem;
+  font-size: 2rem;
+}
+
+.navBullets {
+  margin-top: 15rem;
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+.pageOneLeft h1 {
+  font-size: 6rem;
+  color:hsl(224, 40%, 22%);
+}
+
+
+.pageOneRight {
+  /* padding: 5rem; */
+  /* background-image: url(/assets1/undraw_programmer_re_owql.svg); */
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  height: 80vh;
+  width: 50%;
+}
+.pageOneRight img {
+  height: 300px;
+  border-radius: 50%;
+  padding: 10% 10% 10% 0;
+}
+/* .rightNav {
+  width: 30vw;
+} */
+.one img{
+  height: 40%;
+}
+
+/* section two styles */
+.two {
+  padding: 20rem;
+  background: hsl(120, 14%, 97%);
+  display:flex;
+  justify-content: space-between;
+}
+
+.two h1 {
+  color:hsl(10, 56%, 51%);
+}
+
+.two p {
+  font-size: 2rem;
+  color: hsl(224, 40%, 22%);
+}
+
+.pageTwoLeft {
+  margin-top: 5rem;
+  align-self: flex-start;
+  width: 40%;
+}
+
+.pageTwoRight {
+  margin-bottom: 5rem;
+  align-self: flex-end;
+  width: 40%;
+}
+
+/* section three styles */
+.three {
+  background: hsl(224, 40%, 22%);
+}
+.pageThreeLeft {
+  width: 40%;
+  padding: 10rem;
+  /* align-self: flex-start; */
+}
+.pageThreeRight {
+  width: 50%;
+}
+
+.pageThreeLeft h1 {
+  color:hsl(10, 56%, 51%);
+}
+
+.pageThreeLeft p {
+  font-size: 2rem;
+  color:hsl(120, 14%, 97%)
+}
+
+/* section four styles */
+.four {
+  color:hsl(224, 40%, 22%);
+  background: hsl(120, 14%, 97%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.four p{
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.pageFourBox{
+  background: hsl(0, 0%, 100%);;
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  height: 60vh;
+}
+
+.pageFourLeft {
+  padding: 10rem;
+  width: 40%;
+  border-right: hsl(28, 88%, 59%) solid 2px;
+
+}
+
+.pageFourRight {
+  padding-top: 10rem;
+  width: 25%;
+}
+
+.four button {
+  padding: 1rem;
+  border: none;
+  background-color: hsl(10, 56%, 51%);
+  color: hsl(120, 14%, 97%);
+}
+
+/* section five styles */
+
+.five {
+  background:hsl(0, 0%, 100%);
+}

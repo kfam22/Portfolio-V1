@@ -3,8 +3,9 @@ import homeImg from './../assets/undraw_programmer_re_owql.svg';
 
 export default function Home() {
   return (<section className='one'>
-    <div>
-        <h1>Fullstack Developer.</h1>
+    <div className="pageOneLeft">
+        <h1>Fullstack</h1>
+        <h1>Developer.</h1>
         <p>I like to craft solid and scalable frontend products with excellent UX.</p>
     </div>
 
