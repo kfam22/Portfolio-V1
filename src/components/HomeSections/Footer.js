@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
 
@@ -8,26 +8,23 @@ export default function Footer() {
         <div className='footerContainer'>
         <div className='footerGroup'>
             <p className='footerHeader'>SAY HELLO</p>
-            <a href='#'>email link</a>
+            <a href='mailto:kayla.famurea@gmail.com?subject=Hello'>email</a>
         </div>
 
         <div className='footerGroup'>
-            <p className='footerHeader'>MY WORK</p>
-            <a href='#three'>Projects</a>
-            <a href='#four'>Writing</a>
-            <a href='#'>Resume</a>
+            <p className='footerHeader'>WORK</p>
+            <Link to='/resume'>Resume</Link>
         </div>
 
         <div className='footerGroup'>
             <p className='footerHeader'>CONNECT</p>
             <a href='https://github.com/kfam22' target='_blank'>GH</a>
             <a href='https://www.linkedin.com/in/kaylafamurewa/' target='_blank'>LN</a>
-            <a href='#'>TW</a>
         </div>
         </div>
 
         <div className='footerBottom'>
-        <p>Designed and Built by Kayla Famurewa 2022</p>
+        <p>© designed and built by Kayla Famurewa ♥</p>
         </div>
     </section>
   )

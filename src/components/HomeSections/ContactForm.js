@@ -37,7 +37,7 @@ function ContactForm() {
                 </div>
 
                 <div className='contactBtnCase'>
-                <button type='submit' disabled={state.submitting} className='contact-btn hvr-sweep-to-right'>contact</button>
+                <button type='submit' disabled={state.submitting} className='contact-btn hvr-sweep-to-right'>send</button>
                 </div>
               
             </form>

@@ -4,7 +4,7 @@ import recipeIcon from '../../assets/recipe-book.png';
 import loveLetterIcon from '../../assets/love-letter.png';
 import sewingIcon from '../../assets/sewing.png';
 import codeIcon from '../../assets/binary-code.png';
-import kfIcon from '../../assets/kf-01.svg';
+import kfIcon from '../../assets/kfblue-01.svg';
 
 export default function Experience() {
   return (<section className='three' id='three'>
@@ -24,7 +24,7 @@ export default function Experience() {
             <img src={plantIcon} alt='plant icon'/>
          </div>
          <div className='projectName'>
-            <p>plant tracker app</p>
+            <a href='https://github.com/Build-Week-Water-My-Plants-8' target='_blank'>plant tracker app</a>
          </div>
        </div>
 
@@ -33,7 +33,7 @@ export default function Experience() {
           <img src={kfIcon} alt='kayla famurewa icon'/>
          </div>
          <div className='projectName'>
-            <p>personal portfolio</p>
+            <a href='#home-text'>personal portfolio</a>
          </div>
        </div>
 
@@ -42,7 +42,7 @@ export default function Experience() {
             <img src={loveLetterIcon} alt='love letter icon'/>
           </div>
           <div className='projectName'>
-            <p>love poem generator</p>
+            <a href='https://github.com/kfam22/poem-generator' target='_blank'> love poem generator</a>
           </div>
        </div>
 
@@ -51,7 +51,7 @@ export default function Experience() {
             <img src={codeIcon} alt='binary code icon'/>
           </div>
           <div className='projectName'>
-            <p>breaking into tech guide</p>
+            <a href='https://github.com/kfam22' target='_blank'>breaking into tech</a>
           </div>
        </div>
 
@@ -60,7 +60,7 @@ export default function Experience() {
             <img src={sewingIcon} alt='sewing icon'/>
           </div>
           <div className='projectName'>
-            <p>upcycle studio</p>
+            <a href='https://github.com/kfam22' target='_blank'>upcycle studio</a>
           </div>
        </div>
 
@@ -69,7 +69,7 @@ export default function Experience() {
             <img src={recipeIcon} alt='recipe icon'/>
           </div>
           <div className='projectName'>
-            <p>secure family recipes</p>
+            <a href='https://github.com/secret-family-recipes-04' target='_blank'>secure family recipes</a>
           </div>
        </div>
 
